@@ -1,0 +1,56 @@
+ /* Định dạng bảng danh sách đơn hàng */
+ .table {
+    border-collapse: separate;
+    border-spacing: 0 15px;
+}
+
+.table thead {
+    background-color: #343a40; /* Màu nền đậm cho phần tiêu đề */
+    color: white;
+}
+
+.table tbody tr {
+    background-color: #f8f9fa; /* Màu nền nhạt cho các hàng dữ liệu */
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Hiệu ứng đổ bóng */
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.table tbody tr:hover {
+    background-color: #e2e6ea; /* Đổi màu khi di chuột qua hàng */
+    transform: scale(1.02); /* Tăng nhẹ kích thước hàng khi hover */
+}
+
+.table tbody td {
+    vertical-align: middle;
+}
+
+/* Định dạng nút hành động */
+.btn-sm {
+    margin-right: 5px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.btn-sm:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Hiệu ứng đổ bóng cho nút khi hover */
+}
+
+/* Định dạng badge trạng thái */
+.badge {
+    font-size: 0.9rem;
+    padding: 5px 10px;
+    border-radius: 12px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15); /* Đổ bóng nhẹ cho badge */
+}
+
+/* Định dạng nút Tạo Đơn Hàng Mới */
+.btn-lg {
+    box-shadow: 0 5px 15px rgba(0, 123, 255, 0.4);
+    border-radius: 25px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.btn-lg:hover {
+    background-color: #218838; /* Đổi màu nền khi hover */
+    box-shadow: 0 8px 20px rgba(0, 123, 255, 0.6); /* Tăng hiệu ứng đổ bóng khi hover */
+}
